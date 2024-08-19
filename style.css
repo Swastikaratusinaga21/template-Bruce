@@ -1,0 +1,324 @@
+body {
+  margin: 0;
+}
+
+/*Pembungkus Seluruh Konten*/
+.container {
+  width: 1024px;
+  background-color: #f3f3f3;
+  margin: 0 auto;
+}
+
+/*Header pertama*/
+.header.cf {
+  height: 55px;
+  background-color: #000066;
+  margin: 0;
+}
+
+/*Header, navigasi*/
+.navigasi {
+  height: 50px;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+}
+
+/*Navigasi image brand*/
+.navigasi .nav-img {
+  background-color: pink;
+  width: 400px;
+  height: 50px;
+  float: left;
+}
+
+.navigasi .nav-item {
+  background-color: rgb(255, 107, 132);
+  width: 624px;
+  height: 50px;
+  float: right;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+/*Content pembungkus image dan teks pertama*/
+.content1 {
+  height: 600px;
+  width: 1024px;
+  background-color: #0000e6;
+  margin: 10px auto;
+}
+
+/*Teks di kiri*/
+.content1-left {
+  width: 400px;
+  height: 600px;
+  background-color: #fff;
+  opacity: 0.8;
+  box-sizing: border-box;
+  float: left;
+}
+
+/*Konten utama, gambar fullscreen. coover*/
+/*
+.content1-main {
+  height: 600px;
+  width: 1024px;
+  background-image: url(img/bussiness-people2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*/
+
+/*3 Tabel, bar pertama*/
+.bar1.cf {
+  background-color: #d8d8d8;
+  box-sizing: border-box;
+  width: 1024px;
+  margin: 10px 0;
+}
+
+/* bar pertama, 3 box*/
+.bar1.cf .box2 {
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+  float: left;
+  box-sizing: border-box;
+  margin: 30px;
+  box-shadow: 1px 1px 30px rgb(177, 177, 177);
+}
+
+.bar1.cf .box1,
+.bar1.cf .box3 {
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+  opacity: 0.5;
+  float: left;
+  box-sizing: border-box;
+  margin: 30px 15px;
+}
+
+.content2.cf {
+  width: 1024px;
+  height: 500px;
+  background-color: #df0000;
+  margin: 30px 0;
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+
+.content2.cf .content2-img {
+  width: 400px;
+  height: 500px;
+  background-image: url(img/bussiness-people.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  float: left;
+}
+
+.content2.cf .content2-text {
+  background-color: #c7c7c7;
+  width: 600px;
+  height: 500px;
+  float: right;
+  box-sizing: border-box;
+}
+
+.content3.cf {
+  background-color: #000000;
+  width: 1024px;
+  height: 700px;
+  margin: 100px 0 100px 0px;
+  z-index: 101;
+}
+
+.content3.cf .content3-bg {
+  width: 1024px;
+  height: 700px;
+  background-image: url(img/bussiness-people.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.1;
+  filter: saturate(0%) brightness(1024px) grayscale(50%);
+  z-index: 102;
+  position: absolute;
+}
+
+.content3.cf .content3-satu {
+  background-color: #b0b0fe;
+  width: 300px;
+  height: 700px;
+  float: left;
+  z-index: 103;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+.content3.cf .content3-dua {
+  background-color: #d4d4f9;
+  width: 680px;
+  height: 700px;
+  float: right;
+  z-index: 103;
+  box-sizing: border-box;
+}
+
+.content3.cf .content3-dua .content3-dua-kotak {
+  background-color: #000066;
+  height: 300px;
+  width: 210px;
+  float: left;
+  margin: 25px 5px 20px 8px;
+  box-sizing: border-box;
+}
+
+.bar2.cf {
+  background-color: #ff2323;
+  width: 1000px;
+  height: 150px;
+  padding-left: 20px;
+}
+.bar2.cf .bar2-angka {
+  background-color: #cccccc;
+  width: 195px;
+  height: 150px;
+  float: left;
+  margin: 0 3px 0 0px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.content4.cf {
+  width: 1024px;
+  height: 500px;
+  background-color: #ffffff;
+  margin: 100px 0;
+}
+
+.content4.cf .content4-img {
+  background-color: #0000b3;
+  width: 450px;
+  height: 500px;
+  background-image: url(img/bussiness-people.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  float: left;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+
+.content4.cf .content4-text {
+  background-color: #c7c7c7;
+  width: 550px;
+  height: 500px;
+  float: right;
+  box-sizing: border-box;
+}
+
+.bar3.cf {
+  background-color: #000c68;
+  box-sizing: content-box;
+  width: 1000px;
+  height: 200px;
+  margin: 100px 20px 100px 20px;
+}
+
+.bar3.cf .bar3-bg {
+  width: 1000px;
+  height: 200px;
+  background-image: url(img/bussiness-people.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: opacity(0.2) brightness(130%);
+}
+
+.horizontal-scroll {
+  width: 1000px;
+  overflow-x: scroll;
+  scrollbar-color: transparent transparent;
+  margin-left: 20px;
+}
+.horizontal-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.bar4 {
+  background-color: red;
+  height: 200px;
+  width: max-content;
+  display: flex;
+  gap: 1rem;
+}
+.bar4 .bar4-quote {
+  width: 300px;
+  height: 200px;
+  background-color: pink;
+}
+
+/*content 5*/
+.content5.cf {
+  background-color: #df0000;
+  width: 1000px;
+  height: 640px;
+  margin: 100px auto;
+  margin-left: 20px;
+}
+
+.content5.cf .content5-bar {
+  background-color: pink;
+  width: 300px;
+  height: 600px;
+  float: left;
+  margin: 20px 15px 20px 17px;
+}
+
+.content5.cf .content5-bar .bar-img {
+  background-color: #b0b0fe;
+  width: 100%;
+  height: 300px;
+}
+
+/*footer*/
+.footer.cf {
+  background-color: rgb(19, 0, 141);
+  width: 1024px;
+  height: 600px;
+  display: flex;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.footer.cf .bruce,
+.footer.cf .links,
+.footer.cf .contact-info {
+  background-color: rgb(38, 5, 255);
+  width: 330px;
+  height: 600px;
+  margin: 0 3px;
+}
+
+/*clear float*/
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}
